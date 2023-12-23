@@ -1,0 +1,29 @@
+<!-- media query-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Boostrap csss-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="font/css/fontawesome.min.css">
+
+<!-- font awesome-->
+<link href="font/css/fontawesome.css" rel="stylesheet">
+<link href="font/css/brands.css" rel="stylesheet">
+<link href="font/css/solid.css" rel="stylesheet">
+
+
+<!-- jQuery library -->
+<script src="js/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+
+
+
+example of font awesome
+<i class="fas fa-fish"></i>
+  <i class="fas fa-frog"></i>
+  <i class="fas fa-user-ninja vanished"></i>
+  <i class="fab fa-facebook"></i>
+  <i class="fas fa-camera"></i>

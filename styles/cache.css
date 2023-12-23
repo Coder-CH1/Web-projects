@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbarr{
+	background-image: linear-gradient(to right,#462021,#462021,#462021,#050404,#050404,#212121,#462021,#462021,#462021,#212121 );
+	height: 90px;
+	
+
+}
+.text{
+	color: white;
+	font-size: 34px;
+	font-weight: 800;
+	
+	
+}
+.navcolor{
+	color: whitesmoke;
+	
+}
+.btnn{
+	margin-left: 130px;
+}
+.textt{
+	color: whitesmoke;
+}
+.wrapper{
+	background-color: greenyellow;
+}
+.navv{
+	color: whitesmoke;
+	
+}
+.navbar-text{
+	font-weight: 100;
+	font-size: 12px;
+	color: #567AEB;
+	float: left;
+	margin-right: 30%;
+	
+}

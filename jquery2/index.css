@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*div{
+	position: relative;
+	background-color: red;
+	left: 0px;
+	top: 30px;
+	width: 500px;
+	height: 200px;
+	margin: 5px;
+}*/
+/*container{
+	width: 700px;
+	height: 460px;
+	position: relative;
+	overflow: hidden;
+	background-color: darkred;
+	float: left;
+}
+#animate{
+	width: 100%;
+	position: absolute;
+}*/
+
+
+
+
+/*panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  
+}*/
+
+
+
+
+
+#panel, #flip {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #555;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="result.css" type="text/css">
+<script src="result.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<script type="text/javascript">
+	function grading(){
+	var a = parseInt(document.getElementById('English').value);
+	var b = parseInt(document.getElementById('Mathematics').value);
+    var c = parseInt(document.getElementById('Chemistry').value);
+    var d = parseInt(document.getElementById('Physics').value);
+    var final = a + b + c + d;
+	var total = final / 4;
+	
+	document.getElementById("result").textContent = +final;
+	document.getElementById("averg").textContent = +total;
+
+	if(total >= 80 && total <= 100){
+		document.getElementById("grad").textContent = 'A'+'yay';}
+	else if(total >= 60 && total < 80){
+		document.getElementById("grad").textContent = 'B'+'yayy';}
+	else if(total >= 50 && total < 60){
+		document.getElementById("grad").textContent = 'C'+'yayyy';}
+	
+	else if(total >= 45 && total < 50){
+		document.getElementById("grad").textContent = 'D'+'yayyyy';}
+	
+	else if(total >= 40 && total < 45){
+		document.getElementById("grad").textContent = 'E'+'yayyyyy';}
+	else{
+		document.getElementById("grad").textContent = 'Failed';}	
+	
+}
+	
+	
+	
+	</script>
+	
+	
+	
+<form method="post" action="">
+
+<h1>STUDENT's RESULT CALCULATOR</h1>
+
+<label><span class="col">English: </span><input type="text" id="English" placeholder="Score"></label>
+
+<label><span class="col">Mathematics: </span><input type="text" id="Mathematics" placeholder="Score"></label>
+
+<label><span class="col">Chemistry: </span><input type="text" id="Chemistry" placeholder="Score"></label>
+
+<label><span class="col">Physics: </span><input type="text" id="Physics" placeholder="Score"></label>
+
+</form>
+<p></p>
+	<input type="submit" onClick="grading()" value="check">
+	<p></p>Total:<div id="result"></div>
+	<p></p>Average:<div id="averg"></div>
+	<p></p>Grade:<div id="grad"></div>
+	
+      <!--<p></p>Total:<div id="result" style="background-color: #1AA9C0; width: 5%; height: 10px;"></div>	
+	  <p></p>Average:<div id="averg" style="background-color: deeppink; width: 5%; height: 10px;"></div>	
+	  <p></p>Grade:<div id="grad" style="background-color: darkred; width: 5%; height: 10px;"></div>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<div></div>
+<div></div>
+<div></div>-->
+</body>
+</html>

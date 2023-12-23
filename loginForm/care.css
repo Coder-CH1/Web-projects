@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.fr{
+	margin: auto;
+    text-align: center;
+	height: auto;
+	width: 50%;
+	box-sizing: border-box;
+	
+}*/
+
+.fr{
+	padding: 70px 0px;
+    text-align: center;
+	box-sizing: border-box;
+	
+}
+#use{
+	height: 30px;
+	width: 15%;
+	box-sizing: border-box;
+	border: 2px solid #050447;
+	border-radius: 3px;
+}
+#pass{
+	height: 30px;
+	width: 15%;
+	box-sizing: border-box;
+	border: 2px solid #050447;
+	border-radius: 3px;
+}
+#btn{
+	height: 25px;
+	text-align: center;
+	padding: 0px;
+	width: 10%;
+	color: white;
+	background-color: #050447;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	font-weight: 600;
+	border-radius: 3px;
+	
+}
+
+#btn:hover{
+	background-color: lightblue;
+	color: #050447;
+}

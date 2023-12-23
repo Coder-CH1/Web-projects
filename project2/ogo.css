@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+#myDiv { background-color: red}  
+.myClass {background-color: blue !important} 
+p {background-color : white}
+
+
+.shift{
+	margin-top: 60px;
+}
+.my{
+	text-align: center;
+	font-size: 38px;
+	color: #052107;
+	font-weight: 700;
+	text-shadow: 1px 3px 3px black;
+	margin-top: 10px;
+}
+.we{
+	margin-left: 40px;
+	
+}
+.con{
+	width: 100%;
+	margin-top: 10px;
+	padding-left: 70px;
+}
+.foot{
+	width: 100%;
+}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bgcolorr{
+	background-color: midnightblue;
+}
+.navcolor{
+	color: darkgoldenrod;
+}
+.beau{
+	color: #EAB705;
+	font-size: 23;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	margin-right: 30%;
+}
+.client{
+	margin-right: 20%;
+}
+.input{
+	width: 10%;
+}
+.buttn{
+	width: 10%;
+	background-color: darkgoldenrod;
+	
+}
+
+
+.drop{
+	color: #B7AE30;
+}
+.drop2{
+	background-color: #29281C;
+}
+.buttn:hover{
+	color: darkred;
+	background-color: crimson;
+}
+.drop:hover{
+	background-color: darkred;
+	color: darkgoldenrod;
+}
+.navcolor:hover{
+	color: darkred;
+}
+.beau:hover{
+	color: darkred;
+}
+.container{
+	background-color: darkblue;
+	float: left;
+	height: 400px;
+}
+
+
